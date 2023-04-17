@@ -33,26 +33,87 @@
       crossorigin="anonymous"
     ></script>
   </head>
+  <!--BODY-->
   <body>
+    <!--HEADER CON LOGO Y BOTONES DE REGISTRO E INICIO DE SESION-->
     <header>
-        <div>
-            <img
-              src="./img/logoAresFitness.png"
-              alt="logo-ares-gym"
-              class="logoTop"
-            />
-          </div>
-          <div>
-            <button type="button" class="btn btn-outline-warning">Iniciar Sesión</button>
-            <button type="button" class="btn btn-outline-warning">Registrarse</button>
-          </div>
+      <!--LOGO-->
+      <div>
+        <img
+          src="./img/logoAresFitness.png"
+          alt="logo-ares-gym"
+          class="logoTop"
+        />
+      </div>
+      <!--BOTONES DE INICIO DE SESION Y REGISTRO-->
+      <div>
+        <button type="button" class="btn btn-outline-warning">
+          Iniciar Sesión
+        </button>
+        <button type="button" class="btn btn-outline-warning">
+          Registrarse
+        </button>
+      </div>
     </header>
+    <!--NAV BAR-->
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Menú</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end text-bg-dark"
+          tabindex="-1"
+          id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+              Contenidos
+            </h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/clases.html">Clases</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/planes.html">Planes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/horarios.html">Horarios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/sedes.html">Sedes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
     <main></main>
     <footer></footer>
     <!--SCRIPT JAVASCRIPT-->
     <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-    crossorigin="anonymous"
-  ></script>
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
   </body>
+</html>
