@@ -7,6 +7,12 @@ logo-top {
     width: 200px;
     height: auto;
 }
+.card{
+    margin: 2rem;
+}
+.card-body{
+    background-color: #ffc107;
+}
 .iniciarSesion {
     display: flex;
     flex-wrap: wrap;
@@ -19,6 +25,9 @@ logo-top {
     align-content: space-between;
     justify-content: space-between;
     justify-content: end;
+}
+.carousel{
+    margin: 2rem;
 }
 
 
