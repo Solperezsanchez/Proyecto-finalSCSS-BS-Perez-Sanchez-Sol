@@ -1,3 +1,7 @@
+//*BODY 
+*{
+    font-family:'Poppins'
+}
 //* HEADER
 logo-top {
     width: 200px;
@@ -92,3 +96,16 @@ header {
     text-align: center;
     color: black;
   }
+  //*MAIN PLANES
+  main .border-radius{
+    border-radius: 2rem;
+  }
+  main .card-planes {
+    background-color:white;
+    border-radius: 1rem;
+  }
+  main .container-planes {
+    margin-top: 2rem;
+    margin-bottom:2rem ;
+  }
+  
