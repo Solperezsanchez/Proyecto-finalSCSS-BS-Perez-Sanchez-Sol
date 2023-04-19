@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clases Ares Gym</title>
+    <!--LINK BOOTSTRAP-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!--LINK FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--LINK FAVICON-->
+    <link
+      rel="shortcut icon"
+      href="../img/faviconAresGym.png"
+      type="image/x-icon"
+    />
+    <!--LINK CSS-->
+    <link rel="stylesheet" href="../css/style.css" />
+    <!--SCRIPT ICONOS-->
+    <script
+      src="https://kit.fontawesome.com/d6f136d242.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <!--BODY-->
+  <body>
+    <!--HEADER CON LOGO Y BOTONES DE REGISTRO E INICIO DE SESION-->
+    <header>
+      <!--LOGO-->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col col-md-12 col-xs-12">
+            <div class="logo-top">
+              <img
+                src="../img/logoAresFitness.png"
+                alt="logo-ares-gym"
+                class="logoTop"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--BOTONES DE INICIO DE SESION Y REGISTRO-->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <div class="botonesRegistro">
+              <button
+                type="button"
+                class="iniciarSesion btn btn-outline-warning"
+              >
+                Iniciar Sesión
+              </button>
+              <button type="button" class="btn btn-outline-warning">
+                Registrarse
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--NAV BAR-->
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="navbar navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Menú</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasDarkNavbar"
+              aria-controls="offcanvasDarkNavbar"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="offcanvas offcanvas-end text-bg-dark"
+              tabindex="-1"
+              id="offcanvasDarkNavbar"
+              aria-labelledby="offcanvasDarkNavbarLabel"
+            >
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                  Contenidos
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close btn-close-white"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./clases.html">Clases</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Planes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/horarios.html"
+                      >Horarios</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/sedes.html">Sedes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/contacto.html"
+                      >Contacto</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!--MAIN PLANES-->
+    <main>
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!--FOOTER-->
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="card-body">
+            <div class="pieDePagina">
+              <div class="grupo1">
+                <div class="box boxInfo">
+                  <h2>INFO</h2>
+                  <ul>
+                    <li>0810 444 6789</li>
+                    <li>Info@aresfitness.com</li>
+                  </ul>
+                </div>
+                <div class="box">
+                  <h2>REDES</h2>
+                  <div class="redSocial">
+                    <a><i class="fa-brands fa-whatsapp"></i></a>
+                    <a><i class="fa-brands fa-instagram"></i></a>
+                    <a><i class="fa-brands fa-tiktok"></i></a>
+                  </div>
+                  <div class="box"></div>
+                </div>
+              </div>
+              <div class="grupo2">
+                <small
+                  ><p>
+                    Todos los derechos reservados a Ares Fitness 2023 | Powered
+                    by SOL EUGENIA PEREZ SANCHEZ
+                  </p>
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--SCRIPT JAVASCRIPT-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
