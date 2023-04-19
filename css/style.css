@@ -10875,10 +10875,9 @@ option {
   margin-bottom: 2rem;
 }
 
-.imgbannersedes {
-  width: 100vw;
-  overflow: auto;
-  margin-right: 3rem;
+:root .animate__animated .animate__flipInX {
+  --animate-duration: 800ms;
+  --animate-delay: 0.9s;
 }
 
 /*# sourceMappingURL=style.css.map */
