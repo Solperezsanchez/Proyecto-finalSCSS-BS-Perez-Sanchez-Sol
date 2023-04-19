@@ -10723,16 +10723,10 @@ textarea.form-control-lg {
   font-family: "Poppins";
 }
 
-logo-top {
-  width: 200px;
-  height: auto;
-  margin-bottom: 1rem;
-}
-
 .logoTop {
   width: 200px;
   height: auto;
-  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .iniciarSesion {
@@ -10771,7 +10765,6 @@ header {
   width: 100%;
   background-color: gold;
   color: black;
-  font-family: "Poppins";
   display: block;
 }
 
@@ -10779,7 +10772,6 @@ header {
   width: 100%;
   background-color: gold;
   color: black;
-  font-family: "Poppins";
   font-weight: bold;
 }
 
@@ -10789,7 +10781,6 @@ header {
 
 .pieDePagina .grupo1 .box ul li {
   color: black;
-  font-family: "Poppins";
   text-decoration: none;
   list-style: none;
   padding-right: 40px;
@@ -10840,6 +10831,27 @@ main .card-planes {
 main .container-planes {
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+.coloryellow {
+  background-color: gold;
+}
+
+.colorwhite {
+  background-color: white;
+}
+
+.divHorarios {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 3rem;
+  border-radius: 40px;
+}
+
+.margin {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 /*# sourceMappingURL=style.css.map */
