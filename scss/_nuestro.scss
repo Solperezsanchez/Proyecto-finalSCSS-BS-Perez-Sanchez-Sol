@@ -1,6 +1,5 @@
 //*BODY
 * {
-   
   font-family: "Poppins";
 }
 //* HEADER
@@ -117,24 +116,30 @@ main .container-planes {
   border-radius: 40px;
 }
 .margin {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
- label{
-    color: gold;
- }
- option{
-    color: gold;
- }
-
-
-   
-    .style-button{
-        background-color: gold;
-        color: black;
-        border-radius: 10px;
-    }
-.margin-contacto{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+label {
+  color: gold;
+}
+option {
+  color: gold;
+}
+.style-button {
+  background-color: gold;
+  color: black;
+  border-radius: 10px;
+}
+.margin-contacto {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+@keyframes aparecer{
+0% {opacity: 0;}
+100% {opacity: 1;}
+}
+.logoTop{
+  animation-name: aparecer;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
 }
