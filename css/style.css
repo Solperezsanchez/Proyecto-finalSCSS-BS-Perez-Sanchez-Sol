@@ -10870,4 +10870,15 @@ option {
   border-radius: 10px;
 }
 
+.margin-contacto {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.imgbannersedes {
+  width: 100vw;
+  overflow: auto;
+  margin-right: 3rem;
+}
+
 /*# sourceMappingURL=style.css.map */
