@@ -1955,6 +1955,7 @@ progress {
 }
 .form-label {
   margin-bottom: 0.5rem;
+  color: yellow !important;
 }
 
 .col-form-label {
@@ -1963,6 +1964,7 @@ progress {
   margin-bottom: 0;
   font-size: inherit;
   line-height: 1.5;
+  color: yellow !important;
 }
 
 .col-form-label-lg {
@@ -1980,7 +1982,7 @@ progress {
 .form-text {
   margin-top: 0.25rem;
   font-size: 0.875em;
-  color: #6c757d;
+  color: #ffc107;
 }
 
 .form-control {
@@ -10852,6 +10854,20 @@ main .container-planes {
 .margin {
   margin-top: 3rem;
   margin-bottom: 3rem;
+}
+
+label {
+  color: gold;
+}
+
+option {
+  color: gold;
+}
+
+.style-button {
+  background-color: gold;
+  color: black;
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

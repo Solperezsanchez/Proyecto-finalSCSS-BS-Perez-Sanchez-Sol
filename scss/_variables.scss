@@ -797,7 +797,7 @@ $form-text-margin-top:                  .25rem !default;
 $form-text-font-size:                   $small-font-size !default;
 $form-text-font-style:                  null !default;
 $form-text-font-weight:                 null !default;
-$form-text-color:                       $text-muted !default;
+$form-text-color:                       $yellow;
 // scss-docs-end form-text-variables
 
 // scss-docs-start form-label-variables
@@ -805,7 +805,7 @@ $form-label-margin-bottom:              .5rem !default;
 $form-label-font-size:                  null !default;
 $form-label-font-style:                 null !default;
 $form-label-font-weight:                null !default;
-$form-label-color:                      null !default;
+$form-label-color:                      yellow !important;
 // scss-docs-end form-label-variables
 
 // scss-docs-start form-input-variables

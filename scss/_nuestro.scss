@@ -1,5 +1,6 @@
 //*BODY
 * {
+   
   font-family: "Poppins";
 }
 //* HEADER
@@ -119,3 +120,17 @@ main .container-planes {
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
+ label{
+    color: gold;
+ }
+ option{
+    color: gold;
+ }
+
+
+   
+    .style-button{
+        background-color: gold;
+        color: black;
+        border-radius: 10px;
+    }
