@@ -10728,14 +10728,7 @@ logo-top {
 .logoTop {
   width: 200px;
   height: auto;
-}
-
-.card {
-  margin: 2rem;
-}
-
-.card-body {
-  background-color: #ffc107;
+  margin-top: 1rem;
 }
 
 .iniciarSesion {
@@ -10753,12 +10746,21 @@ logo-top {
   justify-content: end;
 }
 
-.carousel {
-  margin: 2rem;
+header {
+  margin-top: 1rem;
 }
 
-header {
-  margin: 1rem;
+.card {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.card-body {
+  background-color: #ffc107;
+}
+
+.carousel {
+  margin: 2rem;
 }
 
 .pieDePagina {
