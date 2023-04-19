@@ -10883,10 +10883,5 @@ option {
     opacity: 1;
   }
 }
-.logoTop {
-  animation-name: aparecer;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-}
 
 /*# sourceMappingURL=style.css.map */
